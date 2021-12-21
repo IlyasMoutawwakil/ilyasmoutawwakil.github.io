@@ -1,6 +1,6 @@
-# <a href="https://ilyasmoutawwakil.github.io/" target="blank">IlyasMoutawwakil.github.io</a>
+# <a href="https://ilyasmoutawwakil.github.io" target="_blank">IlyasMoutawwakil.github.io</a>
 
-My personal website portfolio built using the template of <a href="https://github.com/smaranjitghose/awesome-portfolio-websites">awesome-portfolio-websites</a>.
+My personal website portfolio built using the template of <a href="https://github.com/smaranjitghose/awesome-portfolio-websites" target="_blank">awesome-portfolio-websites</a>.
 
 Quite amusing if you're bored of the single-pdf-page resume.
 
