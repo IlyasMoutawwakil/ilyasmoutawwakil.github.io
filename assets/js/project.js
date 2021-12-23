@@ -7,8 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Moroccan Car Plates Detector",
-    cardImage:
-      "https://raw.githubusercontent.com/IlyasMoutawwakil/plate-detector/master/tex/figures/Data_gen.PNG",
+    cardImage: "assets/images/project-page/plate-detector.png",
     description:
       "A Deep Learning pipline (YoloV2) for Moroccan car/licence plates detection, trained only on synthesized data created with a data generation algorithm that I wrote.",
     tagimg: "",
@@ -18,8 +17,7 @@ const projects = [
   },
   {
     title: "CycleGAN",
-    cardImage:
-      "https://i1.wp.com/cyxu.tv/wp-content/uploads/2019/03/horse2zebra.jpg?fit=635%2C634&ssl=1",
+    cardImage: "assets/images/project-page/cyclegan.jpg",
     description:
       "A full study and implementation of a cycleGAN and its various building blocks (MLP, CNN, GAN, WGAN, DCGAN, Optimizers, Metrics, ...).",
     tagimg: "",
@@ -29,7 +27,7 @@ const projects = [
   },
   {
     title: "Geohash On Steroids",
-    cardImage: "assets/images/geohash.jpg",
+    cardImage: "assets/images/project-page/geohash.jpg",
     description:
       "Scripts to encode & decode geohashes in Numba for speed up and vector-wise operations.",
     tagimg: "",
