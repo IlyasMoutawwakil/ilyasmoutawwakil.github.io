@@ -440,7 +440,6 @@ header p {
 
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
-  padding: 40px 30px 10px 30px;
 }
  .timeline-item:nth-child(even) .timeline-content .alignment {
   position:absolute;
