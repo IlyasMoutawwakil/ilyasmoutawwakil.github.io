@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Data Science Intern",
-    cardImage: "assets/images/sysnav.png",
+    cardImage: "./assets/images/experience-page/sysnav.png",
     place: "SYSNAV",
     time: "(July, 2021 - Present)",
     desp: `
@@ -22,9 +22,9 @@ const exp = [
   },
   {
     title: "Website Administrator",
-    cardImage: "https://automatants.cs-campus.fr/images/logo_blanc.png",
+    cardImage: "./assets/images/experience-page/automatants.png",
     place: "Automatants - Association d'IA de CentraleSupélec",
-    time: "(January, 2020 - January, 2021)",
+    time: "(January, 2020 - December, 2020)",
     desp: `
     On the campus of the <b>University of Paris Saclay</b>, I was responsible for:
     <ul>
@@ -41,7 +41,7 @@ const showCards1 = () => {
   let output = "";
   exp.forEach(
     ({ title, cardImage, place, time, desp }) =>
-      (output += `        
+    (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1" style="height:350px">
         <img src="${cardImage}" class="featured-image"/>
@@ -74,10 +74,8 @@ const volunteershipcards = [
   {
     title: "sktime",
     cardImage:
-      "https://raw.githubusercontent.com/alan-turing-institute/sktime/main/docs/source/images/sktime-logo-no-text.jpg",
-    description: `A unified framework for Time Series Analysis and Machine Learning.
-      <br>Contribution: Adding features, enhancing models (Prophet) and fixing bugs along the way.
-      .`,
+      "./assets/images/experience-page/sktime.jpg",
+    description: "A unified framework for Time Series Analysis and Machine Learning.",
   },
 ];
 
@@ -85,14 +83,12 @@ const showCards2 = () => {
   let output = "";
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
-      (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
-      
+    (output += `        
+      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height:500px ;width:400px">
       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2><br>
           <p class="copy">${description}</p></div>
-      
       </div>
       `)
   );
@@ -107,8 +103,8 @@ const mentor = [
   {
     title: "Huawei European University Challenge 2020",
     subtitle: "Finalist",
-    image: "assets/images/huawei.png",
-    desp: "I participated alongside a other great members of the Automatants Association to this DataThon where we learned a lot about optical modeling and used state of the art Deep Learning architectures to perform this task.",
+    image: "./assets/images/experience-page/huawei.png",
+    desp: "I participated alongside other great members of the Automatants Association to this DataThon where we learned a lot about optical modeling and used state of the art Deep Learning architectures to perform this task.",
   },
 ];
 
@@ -116,7 +112,7 @@ const showCards3 = () => {
   let output = "";
   mentor.forEach(
     ({ title, image, subtitle, desp }) =>
-      (output += `  
+    (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
             <img src="${image}" alt="">

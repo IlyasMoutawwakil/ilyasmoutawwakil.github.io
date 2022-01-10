@@ -418,6 +418,7 @@ header p {
 
 .timeline {
   position: relative;
+  padding: 0%;
   font-weight: bold;
 }
 
@@ -425,7 +426,7 @@ header p {
 .timeline::before {
   content: "";
   background: #C5CAE9;
-  width: 5px;
+  width: 10px;
   height: 95%;
   position: absolute;
   left: 50%;
